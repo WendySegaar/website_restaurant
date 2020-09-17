@@ -1,0 +1,140 @@
+<!doctype html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<meta name="author" content="Wendy Segaar">
+	<meta name="description" content="Mexican restaurant Aztec Casita">
+	<meta name="keywords" content="Mexican, restaurant, Aztec Casita, delicious food, familyrestaurant, renovated, menu, contact, about us, gallery, catering, enjoy, Lationo food">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/main.css"/>
+	<link href="https://fonts.googleapis.com/css?family=Cardo" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+	<script src="js/script.js"></script>
+	<title>Aztec Casita</title>
+</head>
+<body>
+	<header>
+		<img class="logoTop" src="images/logo_top.png" alt="logo"/>
+		<nav>
+			<ul>
+				<li class="displayMobile mobileli"><img class="menuPicto" src="images/hamburger.png" alt="menu" onclick="hamburgerDropdown();">
+					<ul Id="hamburgerDropdown">
+						<li><a href="our_menu.html">Our menu</a></li>
+						<li><a href="about_us.html">About us</a></li>
+						<li><a href="gallery.html">Gallery</a></li>
+						<li><a href="catering.html">Catering</a></li>
+						<li><a href="#" onclick="contactMobileDropdown();">Contact</a>
+							<ul Id="contactMobileDropdown">
+								<li><a href="contact.html">Contact</a></li>
+								<li><a href="map.html">Map</a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li class="mobileli defaultli">
+					<a class="displayMobile" href="index.html"><img class="menuPicto" src="images/home.png" alt="home"></a>
+					<a class="displayDefault" href="index.html">Home</a>
+				</li>
+				<li class="defaultli displayDefault"><a href="our_menu.html">Our menu</a></li>
+				<li class="defaultli displayDefault"><a href="about_us.html">About us</a></li>
+				<li class="defaultli displayDefault"><a href="gallery.html">Gallery</a></li>
+				<li class="defaultli displayDefault"><a href="catering.html">Catering</a></li>
+				<li class="defaultli displayDefault"><a href="#" onclick="contactDefaultDropdown();" onmouseover="contactDefaultDropdown();">Contact</a>
+					<ul Id="contactDefaultDropdown">
+						<li><a href="contact.html">Contact</a></li>
+						<li><a href="map.html">Map</a></li>
+					</ul>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<section class="topImageContainer">
+		<img class="whiteSpaceDefault" src="images/whitespace.png" alt="white space"/>
+		<article class="undertitleOtherPages extraMarginContact">
+			<h1 class="h1contact">Contact</h1>
+			<p class="undertitleP">If you have any questions or comments for us, send it to us using the form below. We love getting e-mail!</p>
+		</article>
+	</section>
+	<a name="contact"></a>
+	<section class="contentContainer">
+		<h1 class="h1pages">Drop us a line</h1>
+		<img class="imagesBar" alt="images bar" src="images/imagesBar.png"/>
+		<form>
+			<h2>Contact us</h2>
+			<p class="extraMarginP">All fields are required</p>
+			<div class="formRow">
+				<label for="naam">Your name:</label>
+				<input type="text" name="naam"/>
+			</div>
+			<div class="formRow">
+				<label for="email">Email Adress</label>
+				<input type="email" name="email"/>
+			</div>
+			<div class="formRow">
+				<label for="event_name">What's this about</label>
+				<select name="region">
+					<option default>--select--</option>
+					<option>I'm just saying "hello"</option>
+  					<option>I have a question about your menu </option>
+  					<option>I have a question about catering </option>
+ 					<option>I'd like to lodge a complaint</option>
+				</select>
+			</div>
+			<div class="formRow">
+				<label for="message">Your message:</label>
+				<input class="detailsInput" type="text" name="message"/>
+			</div>
+			<input class="sendInput extraMarginInput" type="submit" value="Send"/>
+		</form>
+		<img class="imagesBar" alt="images bar" src="images/imagesBar.png"/>
+	</section>
+	<footer>
+		<article class="linkList">
+			<h3>Home</h3>
+			<ul>
+				<li><a href="index.html#aztec_casita">Discover Aztec Casita</a></li>
+				<li><a href="index.html#dishes_restaurant">Discover our dishes</a></li>
+				<li><a href="index.html#dishes_restaurant">Discover our restaurant</a></li>
+			</ul>
+		</article>
+		<article class="linkList">
+		 	<h3>Our menu</h3>
+			<ul>
+				<li><a href="our_menu.html#main">Main menus</a></li>
+				<li><a href="our_menu.html#sub">Sub menus</a></li>
+				<li><a href="our_menu.html#desserts">Desserts</a></li>
+			</ul>
+		</article>
+		<article class="linkList">
+			<h3>About us</h3>
+			<ul>
+				<li><a href="about_us.html#about_restaurant">Our restaurant</a></li>
+				<li><a href="about_us.html#about_team">Our team</a></li>
+				<li><a href="about_us.html#cooking">Mexican cooking</a></li>
+				<li><a href="about_us.html#promo_video">Promo video</a></li>
+			</ul>
+		</article>
+		<article class="linkList">
+			<h3>Gallery</h3>
+			<ul>
+				<li><a href="gallery.html#gallery_restaurant">The restaurant</a></li>
+				<li><a href="gallery.html#gallery_dishes">Some of our dishes</a></li>
+			</ul>
+		</article>
+		<article class="linkList">
+			<h3>Catering</h3>
+			<ul>
+				<li><a href="catering.html#event">Tell us about <br/> your event</a></li>			
+			</ul>
+		</article>
+		<article class="linkList">
+			<h3>Contact</h3>
+			<ul>
+				<li><a href="contact.html#contact">Contact us</a></li>
+				<li><a href="map.html#map">Map</a></li>
+			</ul>
+		</article>
+	</footer>
+</body>
+</html>

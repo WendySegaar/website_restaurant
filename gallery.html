@@ -1,0 +1,229 @@
+<!doctype html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<meta name="author" content="Wendy Segaar">
+	<meta name="description" content="Mexican restaurant Aztec Casita">
+	<meta name="keywords" content="Mexican, restaurant, Aztec Casita, delicious food, familyrestaurant, renovated, menu, contact, about us, gallery, catering, enjoy, Lationo food">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/main.css"/>
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+	<script src="js/script.js"></script>
+	<title>Aztec Casita</title>
+</head>
+<body>
+	<header>
+		<img class="logoTop" src="images/logo_top.png" alt="logo"/>
+		<nav>
+			<ul>
+				<li class="displayMobile mobileli"><img class="menuPicto" src="images/hamburger.png" alt="menu" onclick="hamburgerDropdown();">
+					<ul Id="hamburgerDropdown">
+						<li><a href="our_menu.html">Our menu</a></li>
+						<li><a href="about_us.html">About us</a></li>
+						<li><a href="gallery.html">Gallery</a></li>
+						<li><a href="catering.html">Catering</a></li>
+						<li><a href="#" onclick="contactMobileDropdown();">Contact</a>
+							<ul Id="contactMobileDropdown">
+								<li><a href="contact.html">Contact</a></li>
+								<li><a href="map.html">Map</a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li class="mobileli defaultli">
+					<a class="displayMobile" href="index.html"><img class="menuPicto" src="images/home.png" alt="home"></a>
+					<a class="displayDefault" href="index.html">Home</a>
+				</li>
+				<li class="defaultli displayDefault"><a href="our_menu.html">Our menu</a></li>
+				<li class="defaultli displayDefault"><a href="about_us.html">About us</a></li>
+				<li class="defaultli displayDefault"><a href="gallery.html">Gallery</a></li>
+				<li class="defaultli displayDefault"><a href="catering.html">Catering</a></li>
+				<li class="defaultli displayDefault"><a href="#" onclick="contactDefaultDropdown();" onmouseover="contactDefaultDropdown();">Contact</a>
+					<ul Id="contactDefaultDropdown">
+						<li><a href="contact.html">Contact</a></li>
+						<li><a href="map.html">Map</a></li>
+					</ul>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<section class="topImageContainer">
+		<img class="topImageDefault" src="images/topimageourmenu_default.png" alt="top image home"/>
+	  	<img class="topImageMobile" src="images/topimageourmenu_mob.png" alt="top image home"/>
+	  	<h1 class="h1top">
+	  		Gallery
+	  	</h1>
+		<article class="undertitleOtherPages">
+			Our cozy family restaurant
+			<p class="undertitleP">We’d love to show you our cozy restaurant and tempt you with pictures of the delicious dishes we serve.</p>
+		</article>
+	</section>
+	<section class="contentContainer">
+		<section class="buttonsGalleryContainer">
+			<button class="buttonGallery"><a href="#gallery_restaurant">Our restaurant</a></button>
+			<button class="buttonGallery"><a href="#gallery_dishes">Our dishes</a></button>
+		</section>
+		<a name="gallery_restaurant"></a>
+		<h1 class="h1pages">The restaurant</h1>
+		<img class="imagesBar" alt="images bar" src="images/imagesBar.png"/>
+		<section class="galleryRow">
+			<section class="galleryBox">
+				<img class="galleryImage" src="images/entrance.jpg" alt="dummy 1">
+				<article class="descriptionGallery">
+					<h2>The entrance</h2>
+					<p>We'll welcome you into our restaurant at the entrance</p>
+				</article>
+			</section>
+			<img class="imagesBar" alt="images bar" src="images/imagesBar.png"/>
+			<section class="galleryBox">
+				<img class="galleryImage" src="images/ourteam.jpg" alt="dummy 1">
+				<article class="descriptionGallery">
+					<h2>Our team</h2>
+					<p>Our team are experts in serving amazing Mexican dishes.</p>
+				</article>
+			</section>
+			<img class="imagesBar" alt="images bar" src="images/imagesBar.png"/>
+			<section class="galleryBox">
+				<img class="galleryImage" src="images/restaurant1.jpg" alt="dummy 1">
+				<article class="descriptionGallery">
+					<h2>Restaurant</h2>
+					<p>Our restaurant is a cozy family restaurant.</p>
+				</article>
+			</section>
+			<img class="imagesBar" alt="images bar" src="images/imagesBar.png"/>
+		</section>
+		<section class="galleryRow">
+			<section class="galleryBox">
+				<img class="galleryImage" src="images/restaurant.jpg" alt="dummy 1">
+				<article class="descriptionGallery">
+					<h2>Experience</h2>
+					<p>The place to meet and experience mexican culture, service, and most importantly, real mexican food!</p>
+				</article>
+			</section>
+			<img class="imagesBar" alt="images bar" src="images/imagesBar.png"/>
+			<section class="galleryBox">
+				<img class="galleryImage" src="images/entertainment.jpg" alt="dummy 1">
+				<article class="descriptionGallery">
+					<h2>Entertainment</h2>
+					<p>From time to time we arrange some entertainment in our restaurant.</p>
+				</article>
+			</section>
+			<img class="imagesBar" alt="images bar" src="images/imagesBar.png"/>
+			<section class="galleryBox">
+				<img class="galleryImage" src="images/cooks.jpg" alt="dummy 1">
+				<article class="descriptionGallery">
+					<h2>Expert cooks</h2>
+					<p>Our cooks are well-known with many Mexican dishes.</p>
+				</article>
+			</section>
+			<img class="imagesBar" alt="images bar" src="images/imagesBar.png"/>
+		</section>
+		<a name="gallery_dishes"></a>
+		<h1 class="h1pages">Some of our dishes</h1>
+		<section class="galleryRow">
+			<section class="galleryBox">
+				<img class="galleryImage" src="images/burritopollo.jpg" alt="dummy 1">
+				<article class="descriptionGallery">
+					<h2>Burrito Pollo</h2>
+					<p>Wraps with grilled chicken, tomatoes, paprika, onions and garlic.</p>
+				</article>
+			</section>
+			<img class="imagesBar" alt="images bar" src="images/imagesBar.png"/>
+			<section class="galleryBox">
+				<img class="galleryImage" src="images/tortillas.jpg" alt="dummy 1">
+				<article class="descriptionGallery">
+					<h2>Tortilla Carne Asada</h2>
+					<p>Tortilla with grilled steak, cilantro, avocado, onion and crema.</p>
+				</article>
+			</section>
+			<img class="imagesBar" alt="images bar" src="images/imagesBar.png"/>
+			<section class="galleryBox">
+				<img class="galleryImage" src="images/enchiladas.jpg" alt="dummy 1">
+				<article class="descriptionGallery">
+					<h2>Enchiladas chicken</h2>
+					<p>Enchiladas with chicken, tamotoes and sour creme.</p>
+				</article>
+			</section>
+			<img class="imagesBar" alt="images bar" src="images/imagesBar.png"/>
+		</section>
+		<section class="galleryRow">
+			<section class="galleryBox">
+				<img class="galleryImage" src="images/fajitas.jpeg" alt="dummy 1">
+				<article class="descriptionGallery">
+					<h2>Fajitas</h2>
+					<p>Fajitas with grilled steak garnished with pepper and onions, served with cream and quacamole.</p>
+				</article>
+			</section>
+			<img class="imagesBar" alt="images bar" src="images/imagesBar.png"/>
+			<section class="galleryBox">
+				<img class="galleryImage" src="images/guacamole.jpg" alt="dummy 1">
+				<article class="descriptionGallery">
+					<h2>Guacamole</h2>
+					<p>Homemade guacamole with tortilla chips.</p>
+				</article>
+			</section>
+			<img class="imagesBar" alt="images bar" src="images/imagesBar.png"/>
+			<section class="galleryBox">
+				<img class="galleryImage" src="images/flan.jpg" alt="dummy 1">
+				<article class="descriptionGallery">
+					<h2>Flan</h2>
+					<p>Custard dessert with whipped cream and caramel</p>
+				</article>
+			</section>
+			<img class="imagesBar" alt="images bar" src="images/imagesBar.png"/>
+		</section>
+		<section class="buttonsGalleryContainer">
+			<button class="buttonGallery"><a href="#gallery_restaurant">Our restaurant</a></button>
+			<button class="buttonGallery"><a href="#gallery_dishes">Our dishes</a></button>
+		</section>
+	</section>
+	<footer>
+		<article class="linkList">
+			<h3>Home</h3>
+			<ul>
+				<li><a href="index.html#aztec_casita">Discover Aztec Casita</a></li>
+				<li><a href="index.html#dishes_restaurant">Discover our dishes</a></li>
+				<li><a href="index.html#dishes_restaurant">Discover our restaurant</a></li>
+			</ul>
+		</article>
+		<article class="linkList">
+		 	<h3>Our menu</h3>
+			<ul>
+				<li><a href="our_menu.html#main">Main menus</a></li>
+				<li><a href="our_menu.html#sub">Sub menus</a></li>
+				<li><a href="our_menu.html#desserts">Desserts</a></li>
+			</ul>
+		</article>
+		<article class="linkList">
+			<h3>About us</h3>
+			<ul>
+				<li><a href="about_us.html#about_restaurant">Our restaurant</a></li>
+				<li><a href="about_us.html#about_team">Our team</a></li>
+				<li><a href="about_us.html#cooking">Mexican cooking</a></li>
+				<li><a href="about_us.html#promo_video">Promo video</a></li>
+			</ul>
+		</article>
+		<article class="linkList">
+			<h3>Gallery</h3>
+			<ul>
+				<li><a href="gallery.html#gallery_restaurant">The restaurant</a></li>
+				<li><a href="gallery.html#gallery_dishes">Some of our dishes</a></li>
+			</ul>
+		</article>
+		<article class="linkList">
+			<h3>Catering</h3>
+			<ul>
+				<li><a href="catering.html#event">Tell us about <br/> your event</a></li>			
+			</ul>
+		</article>
+		<article class="linkList">
+			<h3>Contact</h3>
+			<ul>
+				<li><a href="contact.html#contact">Contact us</a></li>
+				<li><a href="map.html#map">Map</a></li>
+			</ul>
+		</article>
+	</footer>
+</body>
+</html>

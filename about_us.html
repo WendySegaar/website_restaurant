@@ -1,0 +1,148 @@
+<!doctype html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<meta name="author" content="Wendy Segaar">
+	<meta name="description" content="Mexican restaurant Aztec Casita">
+	<meta name="keywords" content="Mexican, restaurant, Aztec Casita, delicious food, familyrestaurant, renovated, menu, contact, about us, gallery, catering, enjoy, Lationo food">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/main.css"/>
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+	<script src="js/script.js"></script>
+	<title>Aztec Casita</title>
+</head>
+<body>
+	<header>
+		<img class="logoTop" src="images/logo_top.png" alt="logo"/>
+		<nav>
+			<ul>
+				<li class="displayMobile mobileli"><img class="menuPicto" src="images/hamburger.png" alt="menu" onclick="hamburgerDropdown();">
+					<ul Id="hamburgerDropdown">
+						<li><a href="our_menu.html">Our menu</a></li>
+						<li><a href="about_us.html">About us</a></li>
+						<li><a href="gallery.html">Gallery</a></li>
+						<li><a href="catering.html">Catering</a></li>
+						<li><a href="#" onclick="contactMobileDropdown();">Contact</a>
+							<ul Id="contactMobileDropdown">
+								<li><a href="contact.html">Contact</a></li>
+								<li><a href="map.html">Map</a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li class="mobileli defaultli">
+					<a class="displayMobile" href="index.html"><img class="menuPicto" src="images/home.png" alt="home"></a>
+					<a class="displayDefault" href="index.html">Home</a>
+				</li>
+				<li class="defaultli displayDefault"><a href="our_menu.html">Our menu</a></li>
+				<li class="defaultli displayDefault"><a href="about_us.html">About us</a></li>
+				<li class="defaultli displayDefault"><a href="gallery.html">Gallery</a></li>
+				<li class="defaultli displayDefault"><a href="catering.html">Catering</a></li>
+				<li class="defaultli displayDefault"><a href="#" onclick="contactDefaultDropdown();" onmouseover="contactDefaultDropdown();">Contact</a>
+					<ul Id="contactDefaultDropdown">
+						<li><a href="contact.html">Contact</a></li>
+						<li><a href="map.html">Map</a></li>
+					</ul>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<section class="topImageContainer">
+		<img class="topImageDefault" src="images/topimageourmenu_default.png" alt="top image home"/>
+	  	<img class="topImageMobile" src="images/topimageourmenu_mob.png" alt="top image home"/>
+	  	<h1 class="h1top">
+	  		About us
+	  	</h1>
+		<article class="undertitleOtherPages">
+			This is who we are!
+			<p class="undertitleP">We are very proud of our team and we'd like to introduce ourselves.</p>
+		</article>
+	</section>
+	<section class="contentContainer">
+		<a name="about_restaurant"></a>
+		<section class="textContainerAbout">
+			<img class="imagesBar" alt="images bar" src="images/imagesBar.png"/>
+			<article class="textBoxAbout">
+				<h2>Our restaurant</h2>
+				<p>Aztec Casita was opened in 1997 to be the place to meet and experience mexican culture, service, and most importantly, real mexican food! We began small, but because of our amazing team we quickly expanded the restaurant. But we always stayed a cozy family restaurant. </p>
+			</article>
+			<img class="aboutUsImage" src="images/restaurant.jpg" alt="restaurant">
+		</section>
+		<a name="about_team"></a>
+		<section class="textContainerAbout rowReverse">
+			<img class="imagesBar" alt="images bar" src="images/imagesBar.png"/>
+			<article class="textBoxAbout">
+				<h2>Our team</h2>
+				<p>Our team are experts in serving amazing Mexican dishes since 1997. Our ambition is to let you discover and enjoy the real feeling of being in Mexico. Our team consists of enthusiastic waiters and experienced cooks who love to give you a good time in our restaurant. Our waiters love to give you advice which Mexican dish you would enjoy. Our cooks are born Mexican and therefor are well-known with all the dishes since they were children.</p>
+			</article>
+			<img class="aboutUsImage" src="images/ourteam.jpg" alt="our team">
+			<img class="imagesBar" alt="images bar" src="images/imagesBar.png"/>
+		</section>
+		<a name="cooking"></a>
+		<section class="textContainerAbout">
+			<article class="textBoxAbout">
+				<h2>Mexican cooking</h2>
+				<p>Mexican cuisine is as complex as other ancient cuisines,  with techniques and skills developed over thousands of years of history. It is created mostly with ingredients native to Mexico, such as peppers, tomatoes and avocados. In our restaurant we serve traditional Mexican dishes like we do in Mexico.</p>
+			</article>
+			<img class="aboutUsImage" src="images/cooking.jpg" alt="Mexican cooking">
+			<img class="imagesBar" alt="images bar" src="images/imagesBar.png"/>		
+		</section>
+		<a name="promo_video"></a>
+		<section class="textContainerAbout rowReverse">
+			<article class="textBoxAbout">
+				<h2>Watch our promo video</h2>
+				<p>Watch our promo video to get an impression of our beautiful restaurant.</p>
+			</article>
+			 <video class="promoVideo" src="videos/promovideo.mp4" type="video/mp4" controls poster="images/poster.png"></video>
+		</section>
+	</section>
+	<footer>
+		<article class="linkList">
+			<h3>Home</h3>
+			<ul>
+				<li><a href="index.html#aztec_casita">Discover Aztec Casita</a></li>
+				<li><a href="index.html#dishes_restaurant">Discover our dishes</a></li>
+				<li><a href="index.html#dishes_restaurant">Discover our restaurant</a></li>
+			</ul>
+		</article>
+		<article class="linkList">
+		 	<h3>Our menu</h3>
+			<ul>
+				<li><a href="our_menu.html#main">Main menus</a></li>
+				<li><a href="our_menu.html#sub">Sub menus</a></li>
+				<li><a href="our_menu.html#desserts">Desserts</a></li>
+			</ul>
+		</article>
+		<article class="linkList">
+			<h3>About us</h3>
+			<ul>
+				<li><a href="about_us.html#about_restaurant">Our restaurant</a></li>
+				<li><a href="about_us.html#about_team">Our team</a></li>
+				<li><a href="about_us.html#cooking">Mexican cooking</a></li>
+				<li><a href="about_us.html#promo_video">Promo video</a></li>
+			</ul>
+		</article>
+		<article class="linkList">
+			<h3>Gallery</h3>
+			<ul>
+				<li><a href="gallery.html#gallery_restaurant">The restaurant</a></li>
+				<li><a href="gallery.html#gallery_dishes">Some of our dishes</a></li>
+			</ul>
+		</article>
+		<article class="linkList">
+			<h3>Catering</h3>
+			<ul>
+				<li><a href="catering.html#event">Tell us about <br/> your event</a></li>			
+			</ul>
+		</article>
+		<article class="linkList">
+			<h3>Contact</h3>
+			<ul>
+				<li><a href="contact.html#contact">Contact us</a></li>
+				<li><a href="map.html#map">Map</a></li>
+			</ul>
+		</article>
+	</footer>
+</body>
+</html>

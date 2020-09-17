@@ -1,0 +1,527 @@
+:root {
+	--green: #0c9a4c;
+	--greenText: #0e4d2a;
+	--titleRed: #ef3129;
+}
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-family: 'Cardo', serif;
+	color: var(--greenText);
+	background-color: var(--green);
+	width: 100%;
+}
+.h1top {
+	font-size: 10vw;
+	color: var(--titleRed);
+	position: absolute;
+	left: 5%;
+	top: 40%;
+	z-index: 5;
+}
+h2 {
+	font-size: 18px;
+}
+h3 {
+	font-size: 20px;
+}
+p {
+	font-size: 16px;
+}
+header {
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
+}
+nav {
+	width: 100%;
+}
+.emptySpaceMenu {
+	width: 19%;
+	display: none;
+}
+.displayMobile {
+	display: inline-block;
+}
+.mobileli {
+	display: inline-block;
+}
+.menuPicto, .logoTop {
+	height: 50px;
+	vertical-align: middle;
+}
+#hamburgerDropdown {
+	display: none;
+	position: absolute;
+	width: 100%;
+	z-index: 10;
+}
+#hamburgerDropdown li{
+	background-color: var(--green);
+}
+#hamburgerDropdown a {
+	padding: 10vw 0 5vw 5vw;
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+}
+#contactMobileDropdown {
+	display: none;
+}
+#contactMobileDropdown li{
+	margin-left: 10%;
+	list-style-type: none;
+}
+.displayDefault, .tableDefault {
+	display: none;
+}
+.topImageContainer {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.topImageDefault {
+	width: 100%;
+	display: none;
+}
+.topImageMobile {
+	width: 100%;
+}
+.logoHome {
+	width: 90%;
+	position: absolute;
+	right: 0;
+	left: 0;
+	margin: auto;
+	top: 2%;
+	z-index: 5;
+}
+.undertitleHome {
+	background-color: white;
+	text-align: center;
+	font-size: 18px;
+	padding: 10vw 0 5vw 0;
+	margin-top: -3vw;
+}
+.textBoxRow {
+	width: 100%;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+}
+.textBoxImage {
+	display: none;
+}
+.imagesBar {
+	width: 100%;
+	background-color: white;
+	padding: 0.5px 0 0.5px 0;
+	border-top: 3px solid red;
+	border-bottom: 3px solid red; 
+}
+.textBox, .menuBox, .textBoxAbout {
+	padding: 2vw 5vw 4vw 5vw;
+	background-color: white;
+}
+.link {
+	color: var(--greenText)
+}
+footer {
+	width: calc(100% - 10vw);
+	background-color: white;
+	display: flex;
+	flex-direction: row;
+	flex-flow: wrap;
+	justify-content: space-around;
+	padding: 2vw 5vw 4vw 5vw;
+}
+.linkList {
+	width: calc(100%/3);
+}
+.linkList ul{
+	list-style: none;
+}
+.linkList li {
+}
+.linkList a {
+	font-size: 14px;
+	text-decoration: none;
+	color: var(--greenText);
+}
+/*Other pages********************/
+.undertitleOtherPages {
+	background-color: white;
+	text-align: center;
+	font-size: 18px;
+	padding: 5vw 3vw 5vw 3vw;
+	margin-top: -3vw;
+}
+.undertitleP {
+	font-size: 14px;
+}
+.contentContainer {
+	display: flex;
+	flex-direction: column;
+}
+/*Our menu page*****************/
+.menuMobile{
+	padding: .5vw;
+}
+.menuMobile dt {
+	font-size: 16px;
+	padding: 2vw 0 .5vw 0;
+}
+.menuMobile dd{
+	font-size: 14px;
+	margin-left: 5vw;
+}
+.tableDefault {
+	font-size: 2vw;
+	border-collapse: collapse; 
+	text-align: left;
+}
+.tableDefault tr {
+	vertical-align: top;
+	border-bottom: 1px solid var(--greenText);
+	width: 100%;
+}
+.tableDefault td {
+	padding: .5vw;
+	padding-right: 1vw;
+	width: 100%;
+}
+.subMenu tr :first-child {
+	width: 80%;
+}
+.subMenu tr :nth-child(2) {
+	width: 30%;
+}
+.subMenu tr :last-child {
+	padding-right: 5vw;
+}
+.dessertsMenu tr :last-child {
+	padding-right: 5vw;
+}
+/*About us page**************/
+.textContainerAbout {
+	display: flex;
+	flex-direction: column;
+}
+.aboutUsImage, .promoVideo {
+	width: 100%;
+}
+/*Gallery page**************/
+.buttonsGalleryContainer {
+	text-align: center;
+	padding-top: 1vw;
+}
+.buttonGallery {
+	border-radius: 20px;
+	padding: 6px;
+	background: linear-gradient(to top, red, var(--titleRed));
+	border: none;
+	width: 40%;
+}
+.buttonGallery a {
+	font-size: 16px;
+	color: white;
+	font-family: 'Source Serif Pro', serif;
+	text-decoration: none;
+}
+.h1pages {
+	font-size: 30px;
+	color: red;
+	padding: 2vw 5vw 4vw 5vw;
+}
+.galleryRow {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin: 0;
+}
+.galleryBox {
+	align-self: center;
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	width: 100%;
+}
+.galleryImage {
+	align-self: center;
+	width: 100%;
+		height: auto;
+}
+.descriptionGallery {
+	padding: 2vw 5vw 4vw 5vw;
+}
+/*Catering page************/
+form {
+	background-color: white;
+	padding: 2vw 5vw 4vw 5vw;
+}
+.formRow {
+	display: flex;
+	flex-direction: column;
+}
+.formRow label{
+	margin-bottom: 2px;
+	font-size: 16px;
+	padding-top: 1vw;
+}
+.formRow input, select {
+	border: 1px solid var(--greenText);
+	height: 25px;
+	margin-bottom: 2px;
+}
+.formRadio {
+	margin: 1vw;
+}
+.formRadio label {
+	font-size: 16px;
+}
+.formRow .detailsInput {
+	height: 100px;
+}
+.sendInput {
+	border-radius: 20px;
+	padding: 6px;
+	background: linear-gradient(to top, red, var(--titleRed));
+	border: none;
+	width: 40%;
+	font-size: 16px;
+	color: white;
+	font-family: 'Source Serif Pro', serif;
+}
+.extraMarginP {
+	margin-top: 1vw;
+}
+/*Contact page************/
+.whiteSpaceDefault {
+	display: none;
+}
+.extraMarginContact{
+	margin-top: 2vw;
+}
+.h1contact {
+	font-size: 10vw;
+}
+.extraMarginInput {
+	margin-top: 1vw;
+}
+/*Map page************/
+#map {
+	height: 200px;
+	width: 100%;
+   
+}
+@media (min-width: 576px){
+	h2 {
+		font-size: 3.3vw;
+	}
+	h3 {
+		font-size: 2.5vw;
+	}
+	p {
+		font-size: 1.5vw;
+	}
+	header {
+		flex-direction: row;
+	}
+	nav {
+		text-align: right;
+		width: 80%;
+		padding: 5% 3% 5% 0;
+	}
+	.emptySpaceMenu {
+		display: block;
+	}
+	.displayMobile, .menuMobile{
+		display: none;
+	}
+	.displayDefault {
+		display: inline-block;
+		z-index: 5;
+	}
+	.defaultli a{
+		color: white;
+		text-decoration: none;
+		font-size: 3vw;
+		padding: .5vw;
+	}
+	#contactDefaultDropdown{
+		list-style-type: none;
+		display: none;
+		position: absolute;
+	}
+	#contactDefaultDropdown li {
+		margin-top: .5vw;
+	}
+	.topImageMobile {
+		display: none;
+	}
+	.topImageDefault {
+		display: block;
+	}
+	.logoHome {
+		top: 8%;
+	}
+	.undertitleHome {
+		font-size: 5vw;
+		margin: 0;
+	}
+	.textBoxImage {
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+	.imagesBar {
+		display: none;
+	}
+	.textContainer {
+		display: flex;
+		flex-direction: column;
+	}
+	.textBoxRow {
+		margin-top: 5%;
+	}
+	.textBox {
+		background: none;
+		z-index: 2;
+		position: absolute;
+	}
+	.textBox1{
+		top: 20%;
+		left: 30%;
+		width: 55%;
+	}
+	.titleTextBox1 {
+		margin-left: -10%;
+	}
+	.textBox2{
+		top: 12%;
+		left: 9%;
+		width: 25%;
+	}
+	.textBox3{
+		top: 12%;
+		left: 58%;
+		width: 25%;
+	}
+	footer {
+		padding: 0;
+		width: 100%;
+		margin-top: 5%;
+		justify-content: space-around;
+	}
+	.linkList {
+		width: auto;
+	}
+	.linkList a {
+		font-size: 2vw;
+	}
+	.linkList a:hover {
+		text-decoration: underline;
+	}
+	/*Other pages********************/
+	.logoTop{
+		width: 19%;
+		height: auto;
+	}
+	.undertitleOtherPages {
+		font-size: 5vw;
+		margin: 0;
+	}
+	.undertitleP {
+		font-size: 3vw;
+	}
+	/*Our menu page*****************/
+	.menuBox {
+		width: calc(90%-6vw);
+		margin: 5%;
+		border: 3vw solid red;
+	}
+	.tableDefault {
+		display: block;
+	}
+	/*About us page**************/
+	.textContainerAbout {
+		display: flex;
+		flex-direction: row;
+		margin: 5% 5% 0 5%;
+		justify-content: space-between;
+	}
+	.textBoxAbout {
+		max-width: 30%;
+		border: 2vw solid red;
+	}
+	.aboutUsImage, .promoVideo {
+		align-self: center;
+		width: 50%;
+		height: auto;
+	}
+	.rowReverse {
+		flex-direction: row-reverse;
+	}
+	/*Gallery page**************/
+	.buttonsGalleryContainer {
+		display: none;
+	}
+	.h1pages {
+		color: red;
+		padding: 5% 5vw 0 5vw;
+		font-size: 8vw;
+	}
+	.galleryRow {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		margin: 5% 5% 0 5%;
+	}
+	.galleryBox {
+		align-self: center;
+		display: flex;
+		flex-direction: column;
+		background-color: white;
+		width: 30%;
+	}
+	.galleryImage {
+		align-self: center;
+		width: 100%;
+		height: auto;
+	}
+	.descriptionGallery {
+		padding: 1vw;
+	}
+	/*Catering page************/
+	form {
+		margin: 5%;
+		border: 3vw solid red;
+	}
+	.formRow {
+		flex-direction: row;
+	}
+	.formRow label {
+		font-size: 1.5vw;
+		width: 50%;
+	}
+	.formRow input, select {
+		width: 40%;
+	}
+	.formRadio label {
+		font-size: 1.5vw;
+	}
+	.sendInput {
+		font-size: 1.5vw;
+	}
+	/*Contact page************/
+	.whiteSpaceDefault {
+		display: block;
+		width: 100%;
+	}
+	#map {
+		height: 28vw;
+		width: 60%;
+	}
+}

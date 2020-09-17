@@ -1,0 +1,275 @@
+<!doctype html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<meta name="author" content="Wendy Segaar">
+	<meta name="description" content="Mexican restaurant Aztec Casita">
+	<meta name="keywords" content="Mexican, restaurant, Aztec Casita, delicious food, familyrestaurant, renovated, menu, contact, about us, gallery, catering, enjoy, Lationo food">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/main.css"/>
+	<link href="https://fonts.googleapis.com/css?family=Cardo" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+	<script src="js/script.js"></script>
+	<title>Aztec Casita</title>
+</head>
+<body>
+	<header>
+		<img class="logoTop" src="images/logo_top.png" alt="logo"/>
+		<nav>
+			<ul>
+				<li class="displayMobile mobileli"><img class="menuPicto" src="images/hamburger.png" alt="menu" onclick="hamburgerDropdown();">
+					<ul Id="hamburgerDropdown">
+						<li><a href="our_menu.html">Our menu</a></li>
+						<li><a href="about_us.html">About us</a></li>
+						<li><a href="gallery.html">Gallery</a></li>
+						<li><a href="catering.html">Catering</a></li>
+						<li><a href="#" onclick="contactMobileDropdown();">Contact</a>
+							<ul Id="contactMobileDropdown">
+								<li><a href="contact.html">Contact</a></li>
+								<li><a href="map.html">Map</a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li class="mobileli defaultli">
+					<a class="displayMobile" href="index.html"><img class="menuPicto" src="images/home.png" alt="home"></a>
+					<a class="displayDefault" href="index.html">Home</a>
+				</li>
+				<li class="defaultli displayDefault"><a href="our_menu.html">Our menu</a></li>
+				<li class="defaultli displayDefault"><a href="about_us.html">About us</a></li>
+				<li class="defaultli displayDefault"><a href="gallery.html">Gallery</a></li>
+				<li class="defaultli displayDefault"><a href="catering.html">Catering</a></li>
+				<li class="defaultli displayDefault"><a href="#" onclick="contactDefaultDropdown();" onmouseover="contactDefaultDropdown();">Contact</a>
+					<ul Id="contactDefaultDropdown">
+						<li><a href="contact.html">Contact</a></li>
+						<li><a href="map.html">Map</a></li>
+					</ul>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<section class="topImageContainer">
+		<img class="topImageDefault" src="images/topimageourmenu_default.png" alt="top image home"/>
+	  	<img class="topImageMobile" src="images/topimageourmenu_mob.png" alt="top image home"/>
+	  	<h1 class="h1top">
+	  		Our menu
+	  	</h1>
+		<article class="undertitleOtherPages">
+			Good eats for hungry geeks.
+			<p class="undertitleP">Our fresh dishes and succulent desserts are sure to please. And don’t forget about our daily chalkboard specials!</p>
+		</article>
+	</section>
+	<section class="contentContainer">
+		<img class="imagesBar" alt="images bar" src="images/imagesBar.png"/>
+		<a name="main"></a>
+		<article class="menuBox">
+			<h2>Main</h2>
+			<table class="tableDefault">
+				<thead>
+					<tr>
+						<th></th>
+						<th>&nbsp;Petite</th>
+						<th>&nbsp;Small</th>
+						<th>&nbsp;Half</th>
+						<th>&nbsp;Full</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td><b>Burrito Pollo</b> <i>Chicken, tomatoes, paprika, onions, garlic</i></td>
+						<td>$3.00</td>
+						<td>$4.95</td>
+						<td>$5.95</td>
+						<td>$7.45</td>
+					</tr>
+						<td><b>Burrito Veggie</b> <i>Grilled peppers, onions, mushrooms</i></td>
+						<td>$2.00</td>
+						<td>$3.95</td>
+						<td>$4.95</td>
+						<td>$6.45</td>
+					</tr>
+					<tr>
+						<td><b>Tortilla Carne Asada</b> <i>Grilled steak with cilantro, avocado, onion, crema</i></td>
+						<td>$2.50</td>
+						<td>$3.00</td>
+						<td>$3.50</td>
+						<td>$4.25</td>
+					</tr>
+					<tr>
+						<td><b>Tortilla Pescado</b> <i>Fried tilapia filet, cabbaga, prickled red onion, crema</i></td>
+						<td>$2.25</td>
+						<td>$2.75</td>
+						<td>$3.25</td>
+						<td>$4.00</td>
+					</tr>
+					<tr>
+						<td><b>Enchiladas beef</b> <i>Ground beef, tomatoes, paprika</i></td>
+						<td>$6.25</td>
+						<td>$7.95</td>
+						<td>$9.95</td>
+						<td>$11.95</td>
+					</tr>
+					<tr>
+						<td><b>Enchiladas chicken</b> <i>Roasted chicken, tomatoes, sour creme</i></td>
+						<td>$6.50</td>
+						<td>$8.75</td>
+						<td>$10.95</td>
+						<td>$12.95</td>
+					</tr>
+					<tr>
+						<td><b>Fajitas</b> <i>Grilled steak or chicken with pepper and onions, served with cream and quacamole</i></td>
+						<td>$7.00</td>
+						<td>$9.50</td>
+						<td>$11.95</td>
+						<td>$13.95</td>
+					</tr>
+				</tbody>
+			</table>
+			<dl class="menuMobile">
+				<dt><b>Burrito Pollo</b> <i>Chicken, tomatoes, paprika, onions, garlic</i></dt>
+				<dd>Petite $3.00, Small $4.95, Half $5.95, Full $7.45</dd>
+				<dt><b>Burrito Veggie</b> <i>Grilled peppers, onions, mushrooms</i></dt>
+				<dd>Petite $2.00, Small $3.95, Half $4.95, Full $6.45</dd>
+				<dt><b>Tortilla Carne Asada</b> <i>Grilled steak with cilantro, avocado, onion, crema</i></dt>
+				<dd>Petite $2.50, Small $3.00, Half $3.50, Full $4.25</dd>
+				<dt><b>Tortilla Pescado</b> <i>Fried tilapia filet, cabbaga, prickled red onion, crema</i></dt>
+				<dd>Petite $2.25, Small $2.75, Half $3.25, Full $4.00</dd>
+				<dt><b>Enchiladas beef</b> <i>Ground beef, tomatoes, paprika</i></dt>
+				<dd>Petite $6.25, Small $7.95, Half $9.95, Full $11.95</dd>
+				<dt><b>Enchiladas chicken</b> <i>Roasted chicken, tomatoes, sour creme</i></dt>
+				<dd>Petite $6.50, Small $8.75, Half $10.95, Full $12.95</dd>
+				<dt><b>Fajitas</b> <i>Grilled steak or chicken with pepper and onions, served with cream and quacamole</i></dt>
+				<dd>Petite $7.00, Small $9.50, Half $11.95, Full $13.95</dd>
+			</dl>
+		</article>
+		<img class="imagesBar" alt="images bar" src="images/imagesBar.png"/>
+		<a name="sub"></a>
+		<article class="menuBox">
+			<h2>Sub</h2>
+			<table class="tableDefault subMenu">
+				<thead>
+					<tr>
+						<th></th>
+						<th>&nbsp;Half</th>
+						<th>&nbsp;Full</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td><b>Pozolo soup</b> <i>Mexican soup with chicken and hominy</i></td>
+						<td>$2.25</td>
+						<td>$3.50</td>
+					</tr>
+					<tr>
+						<td><b>Guacamole</b></td>
+						<td>$2.25</td>
+						<td>$3.50</td>
+					</tr>
+					<tr>
+						<td><b>Nachos</b></td>
+						<td>$3.25</td>
+						<td>$4.75</td>
+					</tr>
+					<tr>
+						<td><b>House Salad</b> <i>Bell peppers, cheese, onions, tomatoes, fresh lettuce</i></td>
+						<td>$3.00</td>
+						<td>$4.50</td>
+				</tbody>
+			</table>
+			<dl class="menuMobile">
+				<dt><b>Pozolo soup</b> <i>Mexican soup with chicken and hominy</i></dt>
+				<dd>Half $2.25, Full $3.50</dd>
+				<dt><b>Guacamole</b></dt>
+				<dd>Half $2.25, Full $3.50</dd>
+				<dt><b>Nachos</b></dt>
+				<dd>Half $3.25, Full $4.75</dd>
+				<dt><b>Tortilla Pescado</b> <i>Fried tilapia filet, cabbaga, prickled red onion, crema</i></dt>
+				<dd>Half $3.00, Full $4.50</dd>
+			</dl>
+		</article>
+		<img class="imagesBar" alt="images bar" src="images/imagesBar.png"/>
+		<a name="desserts"></a>
+		<article class="menuBox">
+			<h2>Desserts</h2>
+			<table class="tableDefault dessertsMenu">
+				<thead>
+					<tr>
+						<th></th>
+						<th>&nbsp;Price</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td><b>Flan</b> <i>Custard dessert with whipped cream and caramel</i></td>
+						<td>$3.50</td>
+					</tr>
+					<tr>
+						<td><b>Cheesecake</b></td>
+						<td>$3.99</td>
+					</tr>
+					<tr>
+						<td><b>Chocolate Brownie Sundea</b> <i>Vanilla ice cream, chocolate sauce, whipped cream</i></td>
+						<td>$4.50</td>
+					</tr>
+				</tbody>
+			</table>
+			<dl class="menuMobile">
+				<dt><b>Flan</b> <i>Custard dessert with whipped cream and caramel</i></dt>
+				<dd>Price $3.50</dd>
+				<dt><b>Cheesecake</b></dt>
+				<dd>Price $3.99</dd>
+				<dt><b>Chocolate Brownie Sundea</b> <i>Vanilla ice cream, chocolate sauce, whipped cream</i></dt>
+				<dd>Price $4.50</dd>
+			</dl>
+		</article>
+	</section>
+	<footer>
+		<article class="linkList">
+			<h3>Home</h3>
+			<ul>
+				<li><a href="index.html#aztec_casita">Discover Aztec Casita</a></li>
+				<li><a href="index.html#dishes_restaurant">Discover our dishes</a></li>
+				<li><a href="index.html#dishes_restaurant">Discover our restaurant</a></li>
+			</ul>
+		</article>
+		<article class="linkList">
+		 	<h3>Our menu</h3>
+			<ul>
+				<li><a href="our_menu.html#main">Main menus</a></li>
+				<li><a href="our_menu.html#sub">Sub menus</a></li>
+				<li><a href="our_menu.html#desserts">Desserts</a></li>
+			</ul>
+		</article>
+		<article class="linkList">
+			<h3>About us</h3>
+			<ul>
+				<li><a href="about_us.html#about_restaurant">Our restaurant</a></li>
+				<li><a href="about_us.html#about_team">Our team</a></li>
+				<li><a href="about_us.html#cooking">Mexican cooking</a></li>
+				<li><a href="about_us.html#promo_video">Promo video</a></li>
+			</ul>
+		</article>
+		<article class="linkList">
+			<h3>Gallery</h3>
+			<ul>
+				<li><a href="gallery.html#gallery_restaurant">The restaurant</a></li>
+				<li><a href="gallery.html#gallery_dishes">Some of our dishes</a></li>
+			</ul>
+		</article>
+		<article class="linkList">
+			<h3>Catering</h3>
+			<ul>
+				<li><a href="catering.html#event">Tell us about <br/> your event</a></li>			
+			</ul>
+		</article>
+		<article class="linkList">
+			<h3>Contact</h3>
+			<ul>
+				<li><a href="contact.html#contact">Contact us</a></li>
+				<li><a href="map.html#map">Map</a></li>
+			</ul>
+		</article>
+	</footer>
+</body>
+</html>
